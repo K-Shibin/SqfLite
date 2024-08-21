@@ -2,7 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SqfLite extends StatelessWidget {
-  const SqfLite({super.key});
+   SqfLite({super.key});
+  int ?name;
+
+
 
   @override
   Widget build(BuildContext context) {
